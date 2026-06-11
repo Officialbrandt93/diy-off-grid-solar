@@ -1649,7 +1649,15 @@ ul {
     }
     
     .hero-title {
-        font-size: 2.4rem;
+        font-size: 1.9rem;
+    }
+
+    .hero-microcopy {
+        font-size: 0.78rem;
+    }
+
+    .navbar .btn-nav {
+        display: none;
     }
     
     .nav-links {
