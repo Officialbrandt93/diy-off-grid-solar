@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Optimization -->
+    <title>Off-Grid Power Blueprint | DIY Solar for Beginners</title>
+    <meta name="description" content="The complete step-by-step interactive blueprint that takes you from zero knowledge to a fully working off-grid solar system. Size battery, panels, wiring, and more.">
+    <meta name="keywords" content="off-grid solar, diy solar, solar power blueprint, solar calculators, build solar system, solar wiring guide">
+    <link rel="icon" type="image/png" href="assets/guarantee_seal.png">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Main Container wrapping the editorial card layout -->
+    <div class="page-container">
+
+        <!-- 1. HEADER / NAVBAR -->
+        <div class="navbar-container">
+            <nav class="navbar" id="main-nav">
+                <a href="#" class="logo-group">
+                    <span class="logo">
+                        <svg viewBox="0 0 24 24" width="22" height="22"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                        Off-Grid Power Blueprint
+                    </span>
+                    <span class="logo-sub">DIY Solar for Beginners</span>
+                </a>
+                
+                <ul class="nav-links">
+                    <li><a href="#how-it-works" class="nav-link">How it works</a></li>
+                    <li><a href="#benefits" class="nav-link">Benefits</a></li>
+                    <li><a href="#whats-inside" class="nav-link">What's inside</a></li>
+                    <li><a href="#reviews" class="nav-link">Reviews</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
+                </ul>
+
+                <a href="#pricing" class="btn btn-primary btn-nav">Get Instant Access</a>
+
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+
+        <!-- 2. HERO SECTION -->
+        <header class="hero-wrapper">
+            <div class="hero">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <span class="eyebrow-pill hero-badge">
+                            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                            Complete DIY Solar Guide
+                        </span>
+                        <h1 class="hero-title">Stop Paying Power Bills. Build Your Own Off-Grid Solar System.</h1>
+                        <p class="hero-subtitle">The complete step-by-step blueprint that takes you from zero knowledge to a fully working off-grid solar system — with interactive calculators, real component specs, and a built-in safety guide.</p>
+                        
+                        <div class="hero-cta-wrapper">
+                            <a href="#pricing" class="btn btn-primary" style="align-self: flex-start;">Get Instant Access — Only $39</a>
+                            <span class="hero-microcopy">
+                                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                7-day money-back guarantee — no questions asked
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Right Side: Interactive Dashboard Mockup Widget -->
+                    <div class="hero-widget">
+                        <div class="widget-header">
+                            <span class="widget-title">
+                                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line></svg>
+                                Interactive Spec Dashboard
+                            </span>
+                            <span class="widget-status"></span>
+                        </div>
+                        <div class="widget-grid">
+                            <div class="widget-card">
+                                <div class="widget-card-lbl">
+                                    <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                                    Daily Consumption
+                                </div>
+                                <div class="widget-card-val"><span id="calc-consumption">1,164</span><span class="widget-card-unit">Wh</span></div>
+                            </div>
+                            <div class="widget-card">
+                                <div class="widget-card-lbl">
+                                    <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="16" height="10" rx="2" ry="2"></rect><line x1="22" y1="11" x2="22" y2="13"></line></svg>
+                                    Battery Needed
+                                </div>
+                                <div class="widget-card-val"><span id="calc-battery">194</span><span class="widget-card-unit">Ah</span></div>
+                            </div>
+                            <div class="widget-card">
+                                <div class="widget-card-lbl">
+                                    <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line></svg>
+                                    Solar Array
+                                </div>
+                                <div class="widget-card-val"><span id="calc-solar">400</span><span class="widget-card-unit">W</span></div>
+                            </div>
+                            <div class="widget-card">
+                                <div class="widget-card-lbl">
+                                    <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                                    Controller Rating
+                                </div>
+                                <div class="widget-card-val"><span id="calc-controller">30</span><span class="widget-card-unit">A MPPT</span></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Toggle items for the dynamic math simulation -->
+                        <div class="widget-calc-toggle">
+                            <span class="widget-calc-title">Toggle items below to size your system live:</span>
+                            <div class="widget-calc-list">
+                                <div class="widget-calc-item active" data-wh="720">⚡ Mini Fridge (720Wh)</div>
+                                <div class="widget-calc-item active" data-wh="100">💡 LED Lights (100Wh)</div>
+                                <div class="widget-calc-item active" data-wh="180">💻 Laptop (180Wh)</div>
+                                <div class="widget-calc-item active" data-wh="24">📱 Phone Charger (24Wh)</div>
+                                <div class="widget-calc-item active" data-wh="140">📶 WiFi Router (140Wh)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero bottom metrics -->
+                <div class="hero-cards-grid">
+                    <div class="hero-stat-card">
+                        <div class="hero-stat-val">9</div>
+                        <div class="hero-stat-lbl">Interactive Modules</div>
+                    </div>
+                    <div class="hero-stat-card">
+                        <div class="hero-stat-val">6</div>
+                        <div class="hero-stat-lbl">Built-in Calculators</div>
+                    </div>
+                    <div class="hero-stat-card">
+                        <div class="hero-stat-val">0</div>
+                        <div class="hero-stat-lbl">Prior Experience Needed</div>
+                    </div>
+                    <div class="hero-stat-card">
+                        <div class="hero-stat-val">80%</div>
+                        <div class="hero-stat-lbl">Potential Bill Reduction</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- 3. PROOF BAR (Infinite sliding marquee) -->
+        <section class="proof-bar">
+            <div class="proof-ticker">
+                <div class="proof-track">
+                    <!-- Set 1 -->
+                    <div class="proof-item">
+                        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        No prior experience required
+                    </div>
+                    <div class="proof-item">
+                        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        Works on any device
+                    </div>
+                    <div class="proof-item">
+                        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        Instant access after purchase
+                    </div>
+                    <div class="proof-item">
+                        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        Real NEC-standard calculations
+                    </div>
+                    <!-- Set 2 (Duplicated for loop continuity) -->
+                    <div class="proof-item">
+                        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        No prior experience required
+                    </div>
+                    <div class="proof-item">
+                        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        Works on any device
+                    </div>
+                    <div class="proof-item">
+                        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        Instant access after purchase
+                    </div>
+                    <div class="proof-item">
+                        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        Real NEC-standard calculations
+                    </div>
+                    <!-- Set 3 (Buffer for larger resolutions) -->
+                    <div class="proof-item">
+                        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        No prior experience required
+                    </div>
+                    <div class="proof-item">
+                        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        Works on any device
+                    </div>
+                    <div class="proof-item">
+                        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        Instant access after purchase
+                    </div>
+                    <div class="proof-item">
+                        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        Real NEC-standard calculations
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. SEÇÃO “WHAT IS THIS” -->
+        <section class="what-is-this section-padding reveal">
+            <div class="what-is-grid">
+                <div class="what-is-content">
+                    <span class="eyebrow-pill">What is this</span>
+                    <h2 class="section-title">Not a PDF. Not a video course. A complete interactive system.</h2>
+                    <div class="what-is-text">
+                        <p>The DIY Off-Grid Power Blueprint is a web-based interactive app — not a static ebook or a video you watch and forget. Every module combines real educational content with built-in calculators that size your actual system as you go.</p>
+                        <p>You enter your real appliances, your location's sun hours, your battery preference — and the app builds your complete system specification automatically. By the end, you have an exact shopping list with real numbers: how many panels, what battery bank, which controller, what fuse size.</p>
+                        <p>It covers everything from the basics of how solar works all the way to wiring diagrams, safety standards, installation checklists, and monthly maintenance routines.</p>
+                    </div>
+                    
+                    <div class="mini-cards-grid">
+                        <div class="mini-card">
+                            <div class="mini-card-icon">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                            </div>
+                            <div class="mini-card-title">9 modules</div>
+                            <div class="mini-card-desc">From basics to full installation</div>
+                        </div>
+                        <div class="mini-card">
+                            <div class="mini-card-icon">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line><line x1="15" y1="3" x2="15" y2="21"></line><line x1="3" y1="9" x2="21" y2="9"></line><line x1="3" y1="15" x2="21" y2="15"></line></svg>
+                            </div>
+                            <div class="mini-card-title">6 calculators</div>
+                            <div class="mini-card-desc">Size your real system — live</div>
+                        </div>
+                        <div class="mini-card">
+                            <div class="mini-card-icon">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                            </div>
+                            <div class="mini-card-title">Safety guide</div>
+                            <div class="mini-card-desc">NEC standards & emergencies</div>
+                        </div>
+                        <div class="mini-card">
+                            <div class="mini-card-icon">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                            </div>
+                            <div class="mini-card-title">Instant access</div>
+                            <div class="mini-card-desc">Start in the next 5 minutes</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side: Graphic interface mockup of the system inside a Laptop Mockup -->
+                <div class="laptop-mockup-container">
+                    <div class="laptop-mockup">
+                        <div class="laptop-screen">
+                            <img src="assets/system_screenshot.png" alt="Off-Grid Power Blueprint Component Guide Screen">
+                        </div>
+                        <div class="laptop-base"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. SEÇÃO “HOW IT WORKS” -->
+        <section class="how-it-works section-padding reveal" id="how-it-works">
+            <div class="text-center max-w-3xl">
+                <span class="eyebrow-pill">How it works</span>
+                <h2 class="section-title">From zero knowledge to full system spec — step by step</h2>
+                <p class="section-subtitle">Each module builds on the last. You never feel lost because you always know exactly where you are and what comes next.</p>
+            </div>
+
+            <div class="steps-grid">
+                <!-- Step 1 -->
+                <div class="step-card">
+                    <div>
+                        <div class="step-header">
+                            <div class="step-icon-wrapper">
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                            </div>
+                            <span class="step-tag lesson">Lesson</span>
+                        </div>
+                        <h3 class="step-title">01 — Understand how off-grid solar actually works</h3>
+                        <p class="step-desc">Learn the 4 core components, how energy flows through the system, and why the order you connect everything matters. Fully interactive — click each component and step to expand the explanation.</p>
+                    </div>
+                    <span class="step-number">01</span>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="step-card">
+                    <div>
+                        <div class="step-header">
+                            <div class="step-icon-wrapper">
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line><line x1="15" y1="3" x2="15" y2="21"></line><line x1="3" y1="9" x2="21" y2="9"></line><line x1="3" y1="15" x2="21" y2="15"></line></svg>
+                            </div>
+                            <span class="step-tag calculator">Calculator</span>
+                        </div>
+                        <h3 class="step-title">02 — Calculate your real daily energy consumption</h3>
+                        <p class="step-desc">Add your appliances one by one. The calculator multiplies watts × hours × quantity and gives you your daily Wh total — the single number that drives every other calculation in the blueprint.</p>
+                    </div>
+                    <span class="step-number">02</span>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="step-card">
+                    <div>
+                        <div class="step-header">
+                            <div class="step-icon-wrapper">
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                            </div>
+                            <span class="step-tag calculator">Calculator</span>
+                        </div>
+                        <h3 class="step-title">03 — Size your battery, panels, controller, and inverter</h3>
+                        <p class="step-desc">Four dedicated modules with built-in calculators — each one pre-filled with results from the previous step. Change one number and everything updates automatically.</p>
+                    </div>
+                    <span class="step-number">03</span>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="step-card">
+                    <div>
+                        <div class="step-header">
+                            <div class="step-icon-wrapper">
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                            </div>
+                            <span class="step-tag safety">Safety</span>
+                        </div>
+                        <h3 class="step-title">04 — Wire safely using NEC-standard formulas</h3>
+                        <p class="step-desc">The Wiring & Safety module shows you exactly where to install fuses, what AWG cable to use, and how to calculate each fuse size using the same formulas licensed electricians use.</p>
+                    </div>
+                    <span class="step-number">04</span>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="step-card">
+                    <div>
+                        <div class="step-header">
+                            <div class="step-icon-wrapper">
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+                            </div>
+                            <span class="step-tag checklist">Checklist</span>
+                        </div>
+                        <h3 class="step-title">05 — Install using the correct sequence — with a checklist</h3>
+                        <p class="step-desc">A 12-item pre-startup checklist walks you through the correct wiring order. Check off each item and a progress bar fills up. The banner only appears when every item is confirmed.</p>
+                    </div>
+                    <span class="step-number">05</span>
+                </div>
+
+                <!-- Step 6 -->
+                <div class="step-card">
+                    <div>
+                        <div class="step-header">
+                            <div class="step-icon-wrapper">
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                            </div>
+                            <span class="step-tag summary">Summary</span>
+                        </div>
+                        <h3 class="step-title">06 — Export your complete system specification</h3>
+                        <p class="step-desc">The System Summary page compiles every value you calculated — panel wattage, battery Ah, controller amps, inverter size, fuse rating — into a single spec sheet you can copy and take to the store.</p>
+                    </div>
+                    <span class="step-number">06</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. SEÇÃO “BENEFITS” -->
+        <section class="benefits section-padding reveal" id="benefits">
+            <div class="text-center max-w-3xl">
+                <span class="eyebrow-pill">Benefits</span>
+                <h2 class="section-title">Everything you get when you follow the blueprint</h2>
+                <p class="section-subtitle">We design for practicality, safety, and absolute independence. No technical jargon, no expensive mistakes.</p>
+            </div>
+
+            <div class="benefits-grid">
+                <!-- Card 1 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                    </div>
+                    <h3 class="benefit-title">Slash bills by up to 80%</h3>
+                    <p class="benefit-desc">A correctly sized off-grid solar system covers all your essential loads — lights, fans, laptops, fridge — without paying the utility company a cent.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    </div>
+                    <h3 class="benefit-title">No experience needed</h3>
+                    <p class="benefit-desc">Every concept is explained with plain language, visual diagrams, and real examples. If you can read and follow steps, you can build this system.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                    </div>
+                    <h3 class="benefit-title">Precise calculations</h3>
+                    <p class="benefit-desc">Every calculator uses real engineering formulas. You get exact numbers, not rough estimates — so you buy the right components the first time.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    </div>
+                    <h3 class="benefit-title">Built-in safety guide</h3>
+                    <p class="benefit-desc">Learn where every fuse must go, what PPE to wear, how to handle emergencies, and what regulations apply to off-grid systems in your area.</p>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                    </div>
+                    <h3 class="benefit-title">Works on any device</h3>
+                    <p class="benefit-desc">The blueprint is a web app — fully mobile responsive. Use it on your phone while shopping for parts, or on a tablet during installation.</p>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+                    </div>
+                    <h3 class="benefit-title">Energy independence</h3>
+                    <p class="benefit-desc">Power outages, rising utility rates, grid failures — none of it affects you. Your system generates and stores your own electricity around the clock.</p>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                    </div>
+                    <h3 class="benefit-title">Works globally</h3>
+                    <p class="benefit-desc">The Peak Sun Hours chart covers locations worldwide. Whether you are in Arizona or northern Europe, the calculators adjust for your actual conditions.</p>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                    </div>
+                    <h3 class="benefit-title">Clean, renewable energy</h3>
+                    <p class="benefit-desc">Solar power produces no noise, no exhaust, no fuel costs. Once installed, your system runs silently and cleanly for 25+ years.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. SEÇÃO “WHO IT’S FOR” -->
+        <section class="who-it-is-for section-padding reveal">
+            <div class="text-center max-w-3xl">
+                <span class="eyebrow-pill">Who it's for</span>
+                <h2 class="section-title">Built for real people — not engineers</h2>
+                <p class="section-subtitle">You don't need a degree, a tool shed, or a big budget. You need a plan — and this is it.</p>
+            </div>
+
+            <div class="who-grid">
+                <!-- User 1 -->
+                <div class="who-card">
+                    <div class="who-image-container">
+                        <img src="assets/who_homeowner.png" alt="Homeowners tired of bills" class="who-image-placeholder">
+                    </div>
+                    <div class="who-card-content">
+                        <h3 class="who-card-title">Homeowners tired of bills</h3>
+                        <p class="who-card-desc">Stop watching your electricity bill climb every month. Size a real system and start generating your own power.</p>
+                    </div>
+                </div>
+
+                <!-- User 2 -->
+                <div class="who-card">
+                    <div class="who-image-container">
+                        <img src="assets/who_family.png" alt="Emergency Preparedness" class="who-image-placeholder">
+                    </div>
+                    <div class="who-card-content">
+                        <h3 class="who-card-title">Emergency Preparedness</h3>
+                        <p class="who-card-desc">Keep lights, fans, and a fridge running during power outages with a properly sized battery backup system.</p>
+                    </div>
+                </div>
+
+                <!-- User 3 -->
+                <div class="who-card">
+                    <div class="who-image-container">
+                        <img src="assets/who_rural.jpg" alt="Off-grid & rural dwellers" class="who-image-placeholder">
+                    </div>
+                    <div class="who-card-content">
+                        <h3 class="who-card-title">Off-grid & rural dwellers</h3>
+                        <p class="who-card-desc">Live where the grid is unreliable or nonexistent? This blueprint helps you design a system sized for your real daily needs.</p>
+                    </div>
+                </div>
+
+                <!-- User 4 -->
+                <div class="who-card">
+                    <div class="who-image-container">
+                        <img src="assets/who_rv.jpg" alt="RV & tiny home owners" class="who-image-placeholder">
+                    </div>
+                    <div class="who-card-content">
+                        <h3 class="who-card-title">RV & tiny home owners</h3>
+                        <p class="who-card-desc">Compact systems need precise sizing. The calculators work just as well for a 400Wh van setup as they do for a full home.</p>
+                    </div>
+                </div>
+
+                <!-- User 5 -->
+                <div class="who-card">
+                    <div class="who-image-container">
+                        <img src="assets/who_diy.jpg" alt="DIY enthusiasts & makers" class="who-image-placeholder">
+                    </div>
+                    <div class="who-card-content">
+                        <h3 class="who-card-title">DIY enthusiasts & makers</h3>
+                        <p class="who-card-desc">Love building things that actually work? This blueprint gives you real specs, real wiring diagrams, and a project you'll use every day.</p>
+                    </div>
+                </div>
+
+                <!-- User 6 -->
+                <div class="who-card">
+                    <div class="who-image-container">
+                        <img src="assets/who_eco.jpg" alt="Eco-conscious individuals" class="who-image-placeholder">
+                    </div>
+                    <div class="who-card-content">
+                        <h3 class="who-card-title">Eco-conscious individuals</h3>
+                        <p class="who-card-desc">Reduce your dependence on fossil fuels and lower your carbon footprint with a clean solar system sized exactly for your home.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. SEÇÃO “WHAT’S INSIDE” -->
+        <section class="whats-inside section-padding reveal" id="whats-inside">
+            <div class="whats-inside-grid">
+                <div>
+                    <span class="eyebrow-pill">What's inside</span>
+                    <h2 class="section-title">Everything included in the blueprint</h2>
+                    
+                    <div class="whats-inside-list">
+                        <!-- Item 1 -->
+                        <div class="inside-item">
+                            <div class="inside-icon">
+                                <svg viewBox="0 0 24 24" width="14" height="14"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            <div class="inside-content">
+                                <h3 class="inside-content-title">9 interactive learning modules</h3>
+                                <p class="inside-content-desc">Each module teaches one piece of the system with clickable diagrams, comparison cards, and worked examples — not just text.</p>
+                            </div>
+                        </div>
+
+                        <!-- Item 2 -->
+                        <div class="inside-item">
+                            <div class="inside-icon">
+                                <svg viewBox="0 0 24 24" width="14" height="14"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            <div class="inside-content">
+                                <h3 class="inside-content-title">6 built-in sizing calculators</h3>
+                                <p class="inside-content-desc">Energy consumption, battery bank, solar array, charge controller, inverter, and cable/fuse sizing — all pre-linked so results flow automatically between modules.</p>
+                            </div>
+                        </div>
+
+                        <!-- Item 3 -->
+                        <div class="inside-item">
+                            <div class="inside-icon">
+                                <svg viewBox="0 0 24 24" width="14" height="14"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            <div class="inside-content">
+                                <h3 class="inside-content-title">Complete safety guide</h3>
+                                <p class="inside-content-desc">PPE requirements with illustrated SVGs, mandatory fuse locations per NEC, battery ventilation rules, emergency procedures for fire, shock, and arc flash.</p>
+                            </div>
+                        </div>
+
+                        <!-- Item 4 -->
+                        <div class="inside-item">
+                            <div class="inside-icon">
+                                <svg viewBox="0 0 24 24" width="14" height="14"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            <div class="inside-content">
+                                <h3 class="inside-content-title">Visual component guide with real photos</h3>
+                                <p class="inside-content-desc">12 components shown with real product photos, descriptions, and pro tips — so you know exactly what you're buying and why.</p>
+                            </div>
+                        </div>
+
+                        <!-- Item 5 -->
+                        <div class="inside-item">
+                            <div class="inside-icon">
+                                <svg viewBox="0 0 24 24" width="14" height="14"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            <div class="inside-content">
+                                <h3 class="inside-content-title">Pre-startup installation checklist</h3>
+                                <p class="inside-content-desc">12-item checklist you complete before turning on your system for the first time — with progress bar and confirmation banner.</p>
+                            </div>
+                        </div>
+
+                        <!-- Item 6 -->
+                        <div class="inside-item">
+                            <div class="inside-icon">
+                                <svg viewBox="0 0 24 24" width="14" height="14"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            <div class="inside-content">
+                                <h3 class="inside-content-title">Exportable system summary</h3>
+                                <p class="inside-content-desc">One-click copy of your complete system specification — panel wattage, battery Ah, controller amps, inverter size, fuse ratings — ready to take to the store.</p>
+                            </div>
+                        </div>
+
+                        <!-- Item 7 -->
+                        <div class="inside-item">
+                            <div class="inside-icon">
+                                <svg viewBox="0 0 24 24" width="14" height="14"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            <div class="inside-content">
+                                <h3 class="inside-content-title">Monthly maintenance schedule</h3>
+                                <p class="inside-content-desc">Checklist and table covering monthly, seasonal, and annual tasks to keep your system running at peak performance for decades.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left Side: Large UI screen representation + Interactive pre-startup checklist widget -->
+                <div>
+                    <div class="whats-inside-mockup">
+                        <img src="assets/dashboard_mockup.png" alt="Off-Grid Power Blueprint Dashboard Mockup" class="mockup-img">
+                    </div>
+                    
+                    <!-- Dynamic interactive checklist preview -->
+                    <div class="checklist-preview-box">
+                        <div class="checklist-header">
+                            <span class="checklist-title">🛠️ Interactive Pre-Startup Checklist Preview</span>
+                        </div>
+                        <p style="font-size:0.8rem; color:var(--text-sec); margin-bottom:12px;">Simulate your wiring checklist. Mark all steps to verify safety:</p>
+                        
+                        <div class="progress-container">
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill"></div>
+                            </div>
+                            <span class="progress-text">0/3</span>
+                        </div>
+
+                        <div class="checklist-items">
+                            <label class="checklist-label">
+                                <input type="checkbox" class="checklist-checkbox">
+                                Connect battery bank to charge controller FIRST (powers the controller screen).
+                            </label>
+                            <label class="checklist-label">
+                                <input type="checkbox" class="checklist-checkbox">
+                                Verify fuse sizes and placement match the NEC standard formulas.
+                            </label>
+                            <label class="checklist-label">
+                                <input type="checkbox" class="checklist-checkbox">
+                                Connect solar panels to charge controller SECOND (never solar before battery).
+                            </label>
+                        </div>
+                        <div class="checklist-banner">
+                            🎉 SAFETY CONFIRMED: Connection order verified. System is safe to energize!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. SEÇÃO “REVIEWS” -->
+        <section class="reviews-section section-padding reveal" id="reviews">
+            <div class="text-center max-w-3xl">
+                <span class="eyebrow-pill" style="background: rgba(255,255,255,0.1); color: #fff; border-color: rgba(255,255,255,0.2);">Reviews</span>
+                <h2 class="section-title">Real people. Real clarity. Real off-grid confidence.</h2>
+            </div>
+
+            <div class="reviews-carousel-container">
+                <div class="reviews-slider">
+                    <!-- Review 1 -->
+                    <div class="review-card">
+                        <div>
+                            <div class="review-stars">★★★★★</div>
+                            <p class="review-text">"I had no idea where to start with solar. The calculators made everything so clear — I just entered my appliances and got exact numbers. Bought exactly what I needed, no wasted money on oversized equipment."</p>
+                        </div>
+                        <div>
+                            <span class="review-author">James R.</span>
+                            <div class="review-location">Texas, USA</div>
+                        </div>
+                    </div>
+
+                    <!-- Review 2 -->
+                    <div class="review-card">
+                        <div>
+                            <div class="review-stars">★★★★★</div>
+                            <p class="review-text">"The safety guide alone was worth the price. I didn't realize how many things could go wrong with DIY solar until I read it. Every fuse location, every polarity rule — it's all there with clear explanations."</p>
+                        </div>
+                        <div>
+                            <span class="review-author">Mark T.</span>
+                            <div class="review-location">Colorado, USA</div>
+                        </div>
+                    </div>
+
+                    <!-- Review 3 -->
+                    <div class="review-card">
+                        <div>
+                            <div class="review-stars">★★★★★</div>
+                            <p class="review-text">"We live in a semi-rural area with frequent outages. This blueprint helped us design a system that kept our fridge, lights, and WiFi running through a 3-day blackout last winter. Best $39 I ever spent."</p>
+                        </div>
+                        <div>
+                            <span class="review-author">Sarah & David L.</span>
+                            <div class="review-location">Montana, USA</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. SEÇÃO “GUARANTEE” -->
+        <section class="guarantee-section section-padding reveal">
+            <div class="guarantee-container">
+                <div class="guarantee-card">
+                    <div class="guarantee-seal-wrapper">
+                        <img src="assets/guarantee_seal.png" alt="7-Day 100% Money-Back Guarantee Seal" class="guarantee-seal-img">
+                    </div>
+                    <div class="guarantee-content">
+                        <span class="eyebrow-pill guarantee-badge">7 Day Guarantee</span>
+                        <h3 class="guarantee-card-title">100% Money-Back Guarantee</h3>
+                        <p class="guarantee-text">Go through the entire blueprint. Run all the calculators. Read the safety guide. Build your system spec. If for any reason you're not satisfied within 7 days of purchase, send us one email and we'll refund every cent — no questions asked, no forms to fill, no waiting. Your purchase is completely risk-free.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 11. SEÇÃO “PRICING” -->
+        <section class="pricing-section section-padding reveal" id="pricing">
+            <div class="text-center max-w-3xl">
+                <span class="eyebrow-pill">Limited time offer</span>
+                <h2 class="section-title">Get the complete blueprint today</h2>
+                <p class="section-subtitle">Take control of your power. Build with safety, accuracy, and confidence.</p>
+            </div>
+
+            <div class="pricing-container">
+                <div class="pricing-card">
+                    <div class="text-center">
+                        <span class="eyebrow-pill pricing-badge">Limited time price</span>
+                        <div class="price-box">
+                            <span class="price-regular">$97</span>
+                            <span class="price-main">$39</span>
+                            <span class="price-period">One-time payment — lifetime access</span>
+                        </div>
+                    </div>
+
+                    <div class="pricing-checklist">
+                        <div class="pricing-check-item">
+                            <svg viewBox="0 0 24 24" width="18" height="18"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            9 interactive learning modules
+                        </div>
+                        <div class="pricing-check-item">
+                            <svg viewBox="0 0 24 24" width="18" height="18"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            6 built-in sizing calculators
+                        </div>
+                        <div class="pricing-check-item">
+                            <svg viewBox="0 0 24 24" width="18" height="18"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Complete safety guide (NEC standards)
+                        </div>
+                        <div class="pricing-check-item">
+                            <svg viewBox="0 0 24 24" width="18" height="18"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Visual component guide with real photos
+                        </div>
+                        <div class="pricing-check-item">
+                            <svg viewBox="0 0 24 24" width="18" height="18"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Exportable system specification
+                        </div>
+                        <div class="pricing-check-item">
+                            <svg viewBox="0 0 24 24" width="18" height="18"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            7-day money-back guarantee
+                        </div>
+                    </div>
+
+                    <div class="pricing-cta-box text-center">
+                        <a href="mailto:contact@skillspackai.com?subject=Buy%20Off-Grid%20Power%20Blueprint" class="btn btn-primary">Get Instant Access Now</a>
+                        <span class="pricing-microcopy">Secure checkout — 7-day money-back guarantee</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 12. FAQ -->
+        <section class="faq-section section-padding reveal" id="faq">
+            <div class="text-center max-w-3xl">
+                <span class="eyebrow-pill">FAQ</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+            </div>
+
+            <div class="faq-accordion">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <span class="faq-question">Do I need any prior experience with solar or electricity?</span>
+                        <div class="faq-icon"></div>
+                    </div>
+                    <div class="faq-content">
+                        <p class="faq-answer">Not at all. The blueprint starts from the very basics — what off-grid means, how electricity flows, what each component does. Every term is explained the first time it appears. If you can read and follow steps, you can complete this.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <span class="faq-question">What exactly do I get after purchasing?</span>
+                        <div class="faq-icon"></div>
+                    </div>
+                    <div class="faq-content">
+                        <p class="faq-answer">Instant access to a web-based interactive app with 9 modules, 6 calculators, a safety guide, a visual component guide, an installation checklist, and a system summary page. It works on any browser, any device. No download required.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <span class="faq-question">How accurate are the calculators?</span>
+                        <div class="faq-icon"></div>
+                    </div>
+                    <div class="faq-content">
+                        <p class="faq-answer">The calculators use the same formulas used by licensed solar installers — NEC code for fuse sizing, peak sun hour methodology for panel sizing, depth-of-discharge formulas for battery sizing. The results are real engineering calculations, not estimates.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <span class="faq-question">Does this work for my country / location?</span>
+                        <div class="faq-icon"></div>
+                    </div>
+                    <div class="faq-content">
+                        <p class="faq-answer">Yes. The blueprint covers peak sun hours for locations worldwide and explains both 120V and 230V systems. The component sizing principles are universal. The safety section notes that local regulations vary and recommends verifying requirements in your jurisdiction.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <span class="faq-question">What if I'm not satisfied?</span>
+                        <div class="faq-icon"></div>
+                    </div>
+                    <div class="faq-content">
+                        <p class="faq-answer">You're covered by a 7-day 100% money-back guarantee. Send one email to contact@skillspackai.com within 7 days of purchase and receive a full refund — no questions asked, no explanation required.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 6 -->
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <span class="faq-question">How do I access it after purchasing?</span>
+                        <div class="faq-icon"></div>
+                    </div>
+                    <div class="faq-content">
+                        <p class="faq-answer">After checkout you will receive an email with your access link. Enter the email you used at checkout and you're in — instantly, from any device. There is no app to download and no account password to remember.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 13. CTA FINAL BANNER -->
+        <section class="cta-final-wrapper">
+            <div class="cta-final">
+                <span class="eyebrow-pill cta-final-badge">Last chance</span>
+                <h2 class="cta-final-title">Stop guessing. Start building. Your energy independence starts today.</h2>
+                <p class="cta-final-text">Every day you wait is another month of electricity bills you didn't have to pay. The blueprint gives you everything you need to design, size, and safely install your own off-grid solar system — starting right now.</p>
+                
+                <div class="hero-cta-wrapper" style="align-items:center;">
+                    <a href="#pricing" class="btn btn-primary">Get Instant Access — Only $39</a>
+                    <span class="hero-microcopy">
+                        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        7-day money-back guarantee — no questions asked
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 14. FOOTER -->
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="footer-about">
+                    <a href="#" class="logo-group footer-logo">
+                        <span class="logo">
+                            <svg viewBox="0 0 24 24" width="22" height="22"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                            Off-Grid Power Blueprint
+                        </span>
+                        <span class="logo-sub" style="margin-left:28px;">DIY Solar for Beginners</span>
+                    </a>
+                    <p class="footer-desc">A premium interactive system designed to take you from absolute zero to a fully operational, safe off-grid solar configuration. Build for efficiency and energy independence.</p>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                        <li><a href="#" class="footer-link">Terms & Conditions</a></li>
+                        <li><a href="#" class="footer-link">Refund Policy</a></li>
+                        <li><a href="#" class="footer-link">Support</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Contact & Support</h4>
+                    <div class="footer-contact">
+                        <p>Have questions? Reach out to our technical support team:</p>
+                        <p><a href="mailto:contact@skillspackai.com">contact@skillspackai.com</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">© 2025 Skills Pack AI — DIY Off-Grid Power Blueprint. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Twitter">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Javascripts -->
+    <script src="js/app.js"></script>
+</body>
+</html>
